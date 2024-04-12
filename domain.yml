@@ -24,7 +24,7 @@ responses:
   - text: "Great, carry on!"
 
   utter_goodbye:
-  - text: "Bye"
+  - text: "Bye for now"
 
   utter_iamabot:
   - text: "I am a bot, powered by Rasa."
