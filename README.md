@@ -62,7 +62,7 @@ Meet the project contributors.
 
 |:-------------------------:|:-------------------------:|:-------------------------:|
 
-|[<img src="https://github.com/adarmudas.png" width="60px;"/>](https://github.com/adarmudas/profile)|
+|[<img src="https://github.com/adarmudas.png" width="60px;"/>](https://github.com/adarmudas/profile)<br /><sub><ahref="https://github.com/adarmudas">Aaron Darmudas</a></sub>|
 
 [<img src="https://github.com/iyinusa.png" width="60px;"/><br /><sub><ahref="https://github.com/iyinusa">I. Kennedy Yinusa</a></sub>](https://github.com/iyinusa/profile)
 
