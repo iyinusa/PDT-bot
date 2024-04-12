@@ -55,3 +55,21 @@ To start Python HTTP Server
 Once started, you can then go to your browser, and type `http://localhost:8000`. Please check terminal if port is different.
 
 Finally, you will now be able to test and start having conversation with the Chatbot.
+
+## Contributors
+
+Meet the project contributors.
+
+[<img src="https://github.com/adarmudas.png" width="60px;"/><br /><sub><ahref="https://github.com/adarmudas">Aaron Darmudas</a></sub>](https://github.com/adarmudas/profile)
+
+[<img src="https://github.com/iyinusa.png" width="60px;"/><br /><sub><ahref="https://github.com/iyinusa">I. Kennedy Yinusa</a></sub>](https://github.com/iyinusa/profile)
+
+[<img src="https://github.com/yeshwasri.png" width="60px;"/><br /><sub><ahref="https://github.com/yeshwasri">yeshwasri</a></sub>](https://github.com/yeshwasri/profile)
+
+[<img src="https://github.com/astogunsola.png" width="60px;"/><br /><sub><ahref="https://github.com/astogunsola">astogunsola</a></sub>](https://github.com/astogunsola/profile)
+
+[<img src="https://github.com/Saw6205.png" width="60px;"/><br /><sub><ahref="https://github.com/Saw6205">Saw6205</a></sub>](https://github.com/Saw6205/profile)
+
+[<img src="https://github.com/Saw6205.png" width="60px;"/><br /><sub><ahref="https://github.com/Saw6205">Saw6205</a></sub>](https://github.com/Saw6205/profile)
+
+[<img src="https://github.com/yab55.png" width="60px;"/><br /><sub><ahref="https://github.com/yab55">yab55</a></sub>](https://github.com/yab55/profile)
