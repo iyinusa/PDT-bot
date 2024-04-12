@@ -60,4 +60,5 @@ Finally, you will now be able to test and start having conversation with the Cha
 
 Meet the project contributors.
 | | | |
+|:-----------------------------:|:-------------------------------:|:-------------------------------:|
 | [<img src="https://github.com/adarmudas.png" width="60px;"/>](https://github.com/adarmudas/profile)<br />Aaron Darmudas | 
