@@ -41,6 +41,12 @@ entities:
   - subject
   - fee
 
+slots:
+  - credits_slot:
+      type: text
+      influence_conversation: false
+      mappings:
+        - type: custom
 
 
 actions:
