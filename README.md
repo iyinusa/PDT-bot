@@ -43,6 +43,16 @@ To start Rasa Server
 
 Ensure the the flag `--cors "*"` is included to allow request acceptance for any sources, or you can define your sources, by replace it with the "*"
 
+For Rasa to be able to execute other Transformers/LLM integration in the Rasa Action, you will need to ensure that the Rasa Action server is also started and running.
+
+To start Rasa Action Server
+
+```bash
+  rasa run actions --actions actions
+```
+
+On successful running, you will observe the message, Action endpoint is up and running on http://0.0.0.0:5055.
+
 Once started, you will have access to the API URI, which will look like `http://localhost:5005`. You will need that for the API requests/responses.
 
 To start Python HTTP Server
