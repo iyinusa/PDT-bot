@@ -1,24 +1,47 @@
 from rasa_sdk import Action, Tracker
 from rasa_sdk.executor import CollectingDispatcher
-from transformers import pipeline
+from typing import Any, Text, Dict, List
+from rasa_sdk.events import SlotSet
 import requests
 from bs4 import BeautifulSoup
 
-class ActionGenerateResponse(Action):
-    def name(self) -> str:
+from typing import Text, List, Dict
+
+class ChatGPT(Action):
+
+    def __init__(self):
+        self.url = "https://api.openai.com/v1/chat/completions"
+        self.model = "gpt-3.5-turbo"
+
+        api_key = ''
+        self.headers = {
+            "Content-Type": "application/json",
+            "Authorization": f"Bearer {api_key}"
+        }
+
+        self.prompt = "Answer the following question, based on the data shown. " \
+                      "Answer in a complete sentence and don't say anything else."
+
+    def name(self) -> Text:
         return "action_generate_response"
 
-    async def run(self, dispatcher: CollectingDispatcher, tracker: Tracker, domain: dict) -> list:
+    def run(self, dispatcher: CollectingDispatcher,
+            tracker: Tracker,
+            domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
+        user_input = tracker.latest_message['text']
+        content = self.prompt + "\n\n" + user_input
+        body = {
+            "model": self.model,
+            "messages": [{"role": "user", "content": content}]
+        }
 
-        model_name = "distilgpt2"
-        generator = pipeline('text-generation', model=model_name)
-
-        user_message = tracker.latest_message.get('text')
-
-        response = generator(user_message, max_length=100, temperature=0.9, top_p=0.85, do_sample=True)[0][
-            'generated_text']
-
-        dispatcher.utter_message(text= f"{response}")
+        response = requests.post(
+            url=self.url,
+            headers=self.headers,
+            json=body,
+        )
+        answer = response.json()["choices"][0]["message"]["content"]
+        dispatcher.utter_message(text=f"{answer}")
 
         return []
 

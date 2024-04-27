@@ -41,6 +41,12 @@ entities:
   - subject
   - fee
 
+slots:
+  credits_slot:
+    type: text
+    influence_conversation: false
+    mappings:
+      - type: custom
 
 
 actions:
@@ -54,7 +60,7 @@ responses:
 
   utter_cheer_up:
   - text: "Here is something to cheer you up:"
-    image: "https://i.imgur.com/nGF1K8f.jpg"
+    image: "https://www.icegif.com/wp-content/uploads/2023/02/icegif-647.gif"
 
   utter_did_that_help:
   - text: "Did that help you?"
