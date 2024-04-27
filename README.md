@@ -1,4 +1,3 @@
-
 # PDT Conversational AI
 A Conversational AI Assistance built on Python and Rasa to act as a PDT and provide emotional support using Sentiment Analysis.
 
@@ -55,3 +54,11 @@ To start Python HTTP Server
 Once started, you can then go to your browser, and type `http://localhost:8000`. Please check terminal if port is different.
 
 Finally, you will now be able to test and start having conversation with the Chatbot.
+
+## Contributors
+
+Meet the project contributors.
+| | | |
+|:-----------------------------:|:-------------------------------:|:-------------------------------:|
+| [<img src="https://github.com/adarmudas.png" width="100px"/>](https://github.com/adarmudas/profile)<br />Aaron Darmudas | [<img src="https://github.com/iyinusa.png" width="100px"/>](https://github.com/iyinusa/profile)<br/>I. Kennedy Yinusa | [<img src="https://github.com/yeshwasri.png" width="100px;"/>](https://github.com/yeshwasri/profile)<br/>Yeshwasri | 
+| [<img src="https://github.com/astogunsola.png" width="100px;"/>](https://github.com/astogunsola/profile)<br/>Astogunsola | [<img src="https://github.com/Saw6205.png" width="100px;"/>](https://github.com/Saw6205/profile)<br/>Saw6205 | [<img src="https://github.com/yab55.png" width="100px;"/>](https://github.com/yab55/profile)<br/>Yab55 | [<img src="https://github.com/Nirosha19.png" width="100px;"/>](https://github.com/Nirosha19/profile)<br/>Aye Thandar Phyo |
