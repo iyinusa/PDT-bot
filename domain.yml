@@ -36,6 +36,12 @@ intents:
   - need_dissertation_goals
   - seek_guidance_module_selection
   - course_fee
+  - feeling_frustrated_with_financial_issues
+  - feeling_relieved_about_course_fees
+  - feeling_anxious_about_payment_problems
+  - feeling_disappointed_with_non_payment_consequences
+  - feeling_hopeless_about_academic_struggles
+  - feeling_stressed_about_module_selection
 
 entities:
   - subject
@@ -160,9 +166,26 @@ responses:
   utter_seek_guidance_module_selection:
     - text: "You might need to think about what exactly you want to learn. So, think about what you have learned so far."
 
+  utter_feeling_frustrated_with_financial_issues:
+    - text: "I am sorry to hear that, and I know how you really feel.\nCan you discuss the exact issue, I might be able to provide information that could help make you happy."
+      image: "https://media.tenor.com/n_JWkMIPi2QAAAAi/thinking-emoji-thinking.gif"
 
+  utter_feeling_relieved_about_course_fees:
+    - text: "Lolz! I am glad you are.\nSo for that, let me give you this:"
+      image: "https://www.icegif.com/wp-content/uploads/2023/02/icegif-647.gif"
 
+  utter_feeling_anxious_about_payment_problems:
+    - text: "Yes, it is possible and I know how you feel! But I will suggest having conversation with the Credit Control Team.\nIt might help you know?"
 
+  utter_feeling_disappointed_with_non_payment_consequences:
+    - text: "You do not have to, it could happens to anyone.\nJust try and explain the situation to the Finance Team, they will try to understand and help.\n"
+      image: "https://media1.tenor.com/m/r8J976-gzRYAAAAd/iluvcashew.gif"
+
+  utter_feeling_hopeless_about_academic_struggles:
+    - text: "Sorry about that. But you can still have some sort of convertation with the Finance or Credit Control Team for some sort of settlement arrangement."
+
+  utter_feeling_stressed_about_module_selection:
+    - text: "To eleminate the uncertainty, I would advice you visit https://www.modules.napier.ac.uk/ to look each module learning outcomes. That will help you in clarifying your choice of selections."
 
 session_config:
   session_expiration_time: 60

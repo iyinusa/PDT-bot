@@ -307,15 +307,43 @@ nlu:
     - Since data science covers a wide range of topics, it's important to have a clear focus for your master's dissertation. You need to know exactly what you're aiming to accomplish.
     - Since data science encompasses a wide range of topics, it's important to have a focused approach for your master's dissertation. You need to know exactly what you want to explore.
 
-- intent: seek_guidance_module_selection
+- intent: feeling_frustrated_with_financial_issues
   examples: |
-    - The array of module options is overwhelming, and I'm struggling to determine which ones will best serve my goals. Can you please offer some guidance on specific modules that might be beneficial?
-    - The array of module options is overwhelming, and I'm struggling to determine which ones will best serve my goals. Can you please offer some guidance on specific modules that might be beneficial?
-    - I'm finding it difficult to choose modules that align with my goals. Can you provide some guidance on which ones might be beneficial for me?
-    - With so many module options available, I'm feeling overwhelmed and unsure about which ones to choose. Can you offer some advice on specific modules that might suit my goals?
-    - I'm having trouble deciding which modules to take to help me achieve my goals. Can you recommend some specific modules that might be beneficial for me?
-    
-    
+    - I'm feeling frustrated with my financial situation. 
+    - I'm feeling stressed about my ability to pay the fees. 
+    - I'm feeling overwhelmed by my financial struggles. 
+
+- intent: feeling_relieved_about_course_fees
+  examples: |
+    - I'm so relieved that I managed to pay my course fees on time.
+    - Feeling grateful for the financial assistance with my course fees.
+    - I feel relieved knowing that my course fees are manageable.
+
+- intent: feeling_anxious_about_payment_problems
+  examples: |
+    - I'm feeling anxious about my payment problem affecting my coursework.
+    - Feeling stressed because of the consequences of my payment issues.
+    - I feel worried that my payment problem will impact my academic progress.
+
+- intent: feeling_disappointed_with_non_payment_consequences
+  examples: |
+    - I'm feeling disappointed about the consequences of not paying my fees.
+    - Feeling let down by the university's response to non-payment.
+    - I feel disappointed in myself for not being able to fulfill my financial obligations.
+
+- intent: feeling_hopeless_about_academic_struggles
+  examples: |
+    - I'm feeling hopeless about failing one of my modules.
+    - Feeling overwhelmed by my academic challenges.
+    - I feel hopeless because I don't know how to overcome my struggles.
+
+- intent: feeling_stressed_about_module_selection
+  examples: |
+    - I'm feeling stressed about choosing the right modules for my course.
+    - Feeling overwhelmed by the variety of module options.
+    - I feel stressed because I'm unsure which modules will benefit me the most.
+
+   
     
     
     

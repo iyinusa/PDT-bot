@@ -174,3 +174,33 @@ stories:
   steps:
     - intent: course_fee
     - action: action_extract_course_fees
+
+- story: feeling_frustrated_with_financial_issues_story
+  steps:
+    - intent: feeling_frustrated_with_financial_issues
+    - action: utter_feeling_frustrated_with_financial_issues
+
+- story: feeling_relieved_about_course_fees_story
+  steps:
+    - intent: feeling_relieved_about_course_fees
+    - action: utter_feeling_relieved_about_course_fees
+
+- story: feeling_anxious_about_payment_problems_story
+  steps:
+    - intent: feeling_anxious_about_payment_problems
+    - action: utter_feeling_anxious_about_payment_problems
+
+- story: feeling_disappointed_with_non_payment_consequences_story
+  steps:
+    - intent: feeling_disappointed_with_non_payment_consequences
+    - action: utter_feeling_disappointed_with_non_payment_consequences
+
+- story: feeling_hopeless_about_academic_struggles_story
+  steps:
+    - intent: feeling_hopeless_about_academic_struggles
+    - action: utter_feeling_hopeless_about_academic_struggles
+
+- story: feeling_stressed_about_module_selection_story
+  steps:
+    - intent: feeling_stressed_about_module_selection
+    - action: utter_feeling_stressed_about_module_selection
